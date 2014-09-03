@@ -29,7 +29,7 @@ import java.util.Locale;
 */
 public class SlidingTabLayoutColor extends HorizontalScrollView {
 
-    private final String TAG = "ColoredSlidingTabLayout";
+    private final String TAG = "SlidingTabLayoutColor";
     private Resources res;
     private LinearLayout outerLinearLayout;
     private LinearLayout tabsContainer;

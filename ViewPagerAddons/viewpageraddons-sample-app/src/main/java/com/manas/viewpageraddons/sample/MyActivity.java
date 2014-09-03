@@ -27,7 +27,7 @@ public class MyActivity extends Activity {
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(new CustomPagerAdapter(getFragmentManager()));
 
-        slidingTabsLayout = (SlidingTabLayoutColor) findViewById(R.id.coloredSlidingTabLayout);
+        slidingTabsLayout = (SlidingTabLayoutColor) findViewById(R.id.slidingTabLayoutColor);
         slidingTabsLayout.setViewPager(pager);
         slidingTabsLayout.setActionBar(getActionBar());
     }
