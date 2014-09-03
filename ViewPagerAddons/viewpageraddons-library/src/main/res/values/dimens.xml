@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--SlidingTabLayoutColor default dimens-->
+    <dimen name="indicatorHeight">6dp</dimen>
+    <dimen name="dividerWidth">1dp</dimen>
+    <dimen name="dividerPadding">10dp</dimen>
+    <dimen name="textPaddingLeft">20dp</dimen>
+    <dimen name="textPaddingTop">15dp</dimen>
+    <dimen name="textPaddingRight">20dp</dimen>
+    <dimen name="textPaddingBottom">15dp</dimen>
+    <dimen name="textSize">12sp</dimen>
+    <dimen name="underLineHeight">2dp</dimen>
+    <dimen name="scrollOffset">50dp</dimen>
+</resources>

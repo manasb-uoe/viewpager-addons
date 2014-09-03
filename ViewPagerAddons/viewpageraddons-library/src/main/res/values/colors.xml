@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SlidingTabLayoutColor default colors-->
+    <color name="indicatorColor">#CC33b5e5</color>
+    <color name="textColor">#80000000</color>
+    <color name="textColorSelected">#000000</color>
+    <color name="dividerColor">#cccccc</color>
+    <color name="tabPressedBackground">#6633B5E5</color>
+    <color name="underLineColor">#cccccc</color>
+</resources>
