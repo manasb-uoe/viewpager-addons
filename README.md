@@ -2,9 +2,11 @@
 
 This library consists of various addons/extensions that can be used along with a `ViewPager` (from the support library) to enhance the user experience. The library project is included in a module named `viewpageraddons-library`, and it includes the following classes: 
 
+___
+
 # **1. SlidingTabLayoutColor** #
 
-This layout imitates the sliding tab behavior noticed in the Google Play app, and also adds ability to set different colors for different tabs (and ActionBar) which blend together as the user moves from one tab to another. This can be seen in the screenshots below: 
+ This layout imitates the sliding tab behavior noticed in the Google Play app, and also adds ability to set different colors for different tabs (and ActionBar) which blend together as the user moves from one tab to another. This can be seen in the screenshots below: 
 
 ![Screenshot_2014-09-03-12-10-31.png](https://bitbucket.org/repo/7rARLB/images/2997221742-Screenshot_2014-09-03-12-10-31.png) ![Screenshot_2014-09-03-12-10-38.png](https://bitbucket.org/repo/7rARLB/images/806519476-Screenshot_2014-09-03-12-10-38.png) ![Screenshot_2014-09-03-12-10-44.png](https://bitbucket.org/repo/7rARLB/images/957389261-Screenshot_2014-09-03-12-10-44.png)
 
@@ -75,7 +77,38 @@ This layout imitates the sliding tab behavior noticed in the Google Play app, an
         	public int getPageImage(int pos) {
             	return imageResourceIDs[pos];
         	}
-		}		
+		}
+
+## ** How do I customize? ** ##
+You can use the following xml attributes to customize `SlidingTabLayoutColor`:
+
+* `vpa:indicatorHeight`   Set tab indicator height (default 6dp)
+* `vpa:indicatorColor`   Set tab indicator color (default #33b5e5)
+* `vpa:dividerWidth`   Set tab divider width (default 1dp)
+* `vpa:dividerColor`   Set tab divider color (default #cccccc)
+* `vpa:dividerPadding`   Set tab divider padding (default 10dp)
+* `vpa:tabPaddingLeft`   Set left tab padding (default 20dp)
+* `vpa:tabPaddingTop`   Set top tab padding (default 15dp)
+* `vpa:tabPaddingRight`   Set right tab padding (default 20dp)
+* `vpa:tabPaddingBottom`   Set bottom tab padding (default 15dp)
+* `vpa:textSize`   Set tab text size (default 12sp)
+* `vpa:textColor`   Set tab text color when unselected (default #80000000)
+* `vpa:textColorSelected`   Set tab text color when selected (default #000000)
+* `vpa:underLineHeight`   Set underLine (the full width line below tabs) height (default 2dp)
+* `vpa:underLineColor`   Set underLine color (default #cccccc)
+* `vpa:shouldExpand`   Set to true if you want the tabs to expand and fit screen width (default false)
+* `vpa:showDividers`   Set to true to show dividers (default true)
+* `vpa:tabTextAllBold`   Set to true to make tab text bold (default true)
+* `vpa:tabTextAllCaps`   Set to true to make tab text uppercase (default true)
+* `vpa:scrollOffset`   Set the width of the gap b/w the left edge of the indicator and screen while scrolling (default 50dp)
+
+___
+
+# ** 2. SlidingPagerIndicator ** #
+
+* Coming soon...
+
+___
 
 # ** Developed by ** ##
 
