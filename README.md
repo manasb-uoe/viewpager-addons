@@ -117,3 +117,4 @@ ___
 # ** Credits ** ##
 
 * Blog post explanation - <http://www.pushing-pixels.org/2013/05/09/android-bits-and-pieces-sliding-tabs-madness.html>
+* ActionBar bug fix for pre-API 17 - <http://cyrilmottier.com/2012/11/27/actionbar-on-the-move/>
