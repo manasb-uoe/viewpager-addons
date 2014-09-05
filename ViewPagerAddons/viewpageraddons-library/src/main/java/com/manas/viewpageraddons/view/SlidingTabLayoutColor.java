@@ -392,6 +392,11 @@ public class SlidingTabLayoutColor extends HorizontalScrollView {
                 indicatorPaint.setColor(newColor);
                 if (actionBar != null) {
                     actionBarBacground.setColor(newColor);
+                    //In pre-JELLY_BEACON_MR1 devices, actionBarBackground is not invalidating itself when required as it is not registering itself to the Drawable's callback
+                    //so we need to manually set the actionBar background drawable
+                    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                        actionBar.setBackgroundDrawable(actionBarBacground);
+                    }
                 }
             }
         }
@@ -483,4 +488,5 @@ public class SlidingTabLayoutColor extends HorizontalScrollView {
     public static interface ColorProvider {
         public int getPageColor(int pos);
     }
+
 }
