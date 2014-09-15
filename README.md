@@ -1,6 +1,7 @@
 # **Android ViewPagerAddons** #
 
-This library consists of various addons/extensions that can be used along with a `ViewPager` (from the support library) to enhance the user experience. The library project is included in a module named `viewpageraddons-library`, and it includes the following classes: 
+This library consists of various addons/extensions that can be used along with a `ViewPager` (from the support library) to enhance the user experience. The library project is included in a module named `viewpageraddons-library`.   
+[Download the sample app here.](https://bitbucket.org/enthusiast94/viewpageraddons-android-library/downloads/viewpageraddons-sample-app-debug.apk) 
 
 ___
 
